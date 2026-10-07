@@ -9,7 +9,7 @@ import axios from 'axios'
  */
 
 // Määritetään taustapalvelimen (json-server) perusosoite puhelinluettelon tiedoille.
-const baseUrl = 'http://localhost:3001/api/persons'
+const baseUrl = '/api/persons'
 
 /**
  * Hakee kaikki tallennetut yhteystiedot palvelimelta.
